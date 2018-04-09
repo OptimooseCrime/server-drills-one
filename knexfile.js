@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client:'pg',
-    connection: 'postgresql:///resolution'
+    connection: 'postgres://localhost/resolution'
   },
   production: {
     client: 'pg',
